@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Infinitive
-Summary:	Lingua-EN-Infinitive perl module
-Summary(pl):	Modu³ perla Lingua-EN-Infinitive
+Summary:	Lingua::EN::Infinitive perl module
+Summary(pl):	Modu³ perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Infinitive - determines the infinitive form of a conjugated
+Lingua::EN::Infinitive - determines the infinitive form of a conjugated
 word.
 
 %description -l pl
-Lingua-EN-Infinitive - okre¶la bezokolicznik dla koniugowanego
+Lingua::EN::Infinitive - okre¶la bezokolicznik dla koniugowanego
 czasownika w jêzyku angielskim.
 
 %prep
