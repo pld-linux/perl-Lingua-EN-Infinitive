@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Lingua-EN-Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-EN-Infinitive-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-EN-Infinitive-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,11 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Infinitive - determines the infinitive form of a conjugated word. 
+Lingua-EN-Infinitive - determines the infinitive form of a conjugated
+word.
 
 %description -l pl
-Lingua-EN-Infinitive - okre¶la bezokolicznik dla koniugowanego czasownika
-w jêzyku angielskim.
+Lingua-EN-Infinitive - okre¶la bezokolicznik dla koniugowanego
+czasownika w jêzyku angielskim.
 
 %prep
 %setup -q -n Lingua-EN-Infinitive-%{version}
