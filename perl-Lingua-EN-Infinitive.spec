@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Infinitive
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua-EN-Infinitive perl module
 Summary(pl):	Modu³ perla Lingua-EN-Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Lingua-EN-Infinitive - okre¶la bezokolicznik dla koniugowanego
 czasownika w jêzyku angielskim.
 
 %prep
-%setup -q -n Lingua-EN-Infinitive-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
