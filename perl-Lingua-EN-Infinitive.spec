@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	EN-Infinitive
+%define		pdir	Lingua
+%define		pnam	EN-Infinitive
 Summary:	Lingua::EN::Infinitive perl module
 Summary(pl):	Modu³ perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
