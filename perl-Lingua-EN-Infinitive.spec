@@ -9,7 +9,7 @@ Summary:	Lingua::EN::Infinitive perl module
 Summary(pl):	Modu³ perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
