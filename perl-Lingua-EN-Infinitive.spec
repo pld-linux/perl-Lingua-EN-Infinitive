@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1525c36e9dcda4de19e1f640b516766b
