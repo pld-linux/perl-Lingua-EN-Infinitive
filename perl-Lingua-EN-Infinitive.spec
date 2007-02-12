@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Infinitive
 Summary:	Lingua::EN::Infinitive perl module
-Summary(pl):	Modu³ perla Lingua::EN::Infinitive
+Summary(pl.UTF-8):   ModuÅ‚ perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
 Release:	10
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Lingua::EN::Infinitive - determines the infinitive form of a conjugated
 word.
 
-%description -l pl
-Lingua::EN::Infinitive - okre¶la bezokolicznik dla koniugowanego
-czasownika w jêzyku angielskim.
+%description -l pl.UTF-8
+Lingua::EN::Infinitive - okreÅ›la bezokolicznik dla koniugowanego
+czasownika w jÄ™zyku angielskim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
