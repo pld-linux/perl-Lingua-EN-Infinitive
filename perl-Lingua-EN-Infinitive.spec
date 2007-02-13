@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Infinitive
 Summary:	Lingua::EN::Infinitive perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::EN::Infinitive
+Summary(pl.UTF-8):	Moduł perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
 Release:	10
