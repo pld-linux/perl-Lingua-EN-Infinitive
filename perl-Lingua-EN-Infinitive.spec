@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	EN-Infinitive
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::EN::Infinitive perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
