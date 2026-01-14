@@ -8,7 +8,7 @@ Summary:	Lingua::EN::Infinitive perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::Infinitive
 Name:		perl-Lingua-EN-Infinitive
 Version:	1.00
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
